@@ -14,14 +14,15 @@ namespace Cheers
             var name = Console.ReadLine();
             foreach (char l in name)
             {
-                if ("aefhilmnosx".Contains(l))
+                if ("aefhilmnosxAEFHILMNOSX".Contains(l))
                 {
-                    Console.WriteLine("Give me an ....  {0}", l);
+                    Console.WriteLine("Give me an ...  {0}", l);
                 }
                 else Console.WriteLine("Give me a ..... {0}", l);
             }
-            Console.WriteLine("{0} is GRAND", name);
+            Console.WriteLine("{0} is ... GRAND", name);
             Console.ReadLine();
+
         }
         
     }
